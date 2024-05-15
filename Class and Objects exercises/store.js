@@ -44,3 +44,5 @@ LucasG.showInfos()
 
 LucasS.showWage()
 
+module.exports = new SalesMan ("Lucas 2", 1200)
+
