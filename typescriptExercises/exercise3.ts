@@ -19,6 +19,12 @@ do{
 
 for( let i : number = 0 ; i <= arrayA.length - 1 ; i++ ) {
     for( let j : number = 0 ; j<= arrayA.length - 1 ; j++) {
-        
+        if (arrayA[i] === arrayB[j]) {
+            if(!arrayC.includes(arrayA[i])){
+                arrayC.push(arrayA[i])
+                console.log(arrayC)
+            }
+            
+        }
     }
 }
